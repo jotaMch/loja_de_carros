@@ -192,6 +192,10 @@ aside {
   }
   .conteudo-loja {
     margin: 0;
+    flex-direction: column;
+  }
+  .conteudo-loja .reverse {
+    display: flex;
     flex-direction: column-reverse;
   }
   #sobre-a-loja {
@@ -251,13 +255,21 @@ aside {
     padding: 16px 8px;
   }
 }
+.container-flex {
+  margin: 0 auto;
+}
+.container-flex p {
+  color: #282626;
+  font-family: "Crimson Text", serif;
+  font-weight: bold;
+}
+
 html {
   overflow-x: hidden;
 }
 
 header, footer {
   background-color: #f0e4e4;
-  padding-top: 16px;
   color: #282626;
 }
 
@@ -276,7 +288,7 @@ header > .container,
 footer > .container {
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 16px;
+  padding: 12px;
 }
 
 nav {

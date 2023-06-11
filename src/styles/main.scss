@@ -4,7 +4,7 @@
 @use 'variaveis';
 @use 'aside';
 @use 'media';
-@use 'carousel';
+//@use 'carousel';
 
 html {
     overflow-x: hidden;
@@ -12,7 +12,7 @@ html {
 
 header, footer {
     background-color: variaveis.$corHeader;
-    padding-top: 16px;
+    //padding-top: 16px;
     color: variaveis.$corText;
 }
 
@@ -35,7 +35,8 @@ header > .container,
 footer > .container {
     justify-content: space-between;
     align-items: center;
-    padding-bottom: 16px;
+    //padding-bottom: 16px;
+    padding: 12px;
 }
 
 //nav cabeçalho

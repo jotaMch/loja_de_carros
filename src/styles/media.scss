@@ -1,3 +1,4 @@
+@use 'variaveis';
 
 @media screen and (max-width: 767px) {
     .tela {
@@ -18,7 +19,12 @@
 
         &-loja {
             margin: 0;
-            flex-direction: column-reverse;
+            flex-direction: column;
+
+            .reverse {
+                display: flex;
+                flex-direction: column-reverse;
+            }
         }
     }
     
@@ -97,6 +103,15 @@
             align-items: center;
             padding: 16px 8px;
         }
+}
+
+.container-flex {
+    margin: 0 auto;
+    p {
+        color: variaveis.$corText;
+        font-family: variaveis.$font-principal;
+        font-weight: bold;
+    }
 }
 
 
