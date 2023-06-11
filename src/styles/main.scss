@@ -1,0 +1,124 @@
+@use 'reset';
+@use 'section';
+@use 'form';
+@use 'variaveis';
+@use 'aside';
+@use 'media';
+@use 'carousel';
+
+html {
+    overflow-x: hidden;
+}
+
+header, footer {
+    background-color: variaveis.$corHeader;
+    padding-top: 16px;
+    color: variaveis.$corText;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+    h1 {
+        padding: 8px 0;
+        font-family: variaveis.$font-principal;
+    }
+    
+}
+
+//cabeçalho
+
+header > .container,
+footer > .container {
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+//nav cabeçalho
+
+nav {
+    background-color: variaveis.$corNav;
+    padding: 16px 0;
+    display: none;
+
+    li {
+        list-style: none;
+        display: inline;
+        margin-right: 16px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+        a {
+            color: variaveis.$corHeader;
+            text-decoration: none;
+            font-family: variaveis.$font-secundaria;
+        }
+    }
+}
+
+.menu-hamburger {
+    width: 32px;
+    cursor: pointer;
+
+    span {
+        height: 2px;
+        width: 100%;
+        background-color: variaveis.$corText;
+        display: block;
+        margin-bottom: 4px;
+    }
+}
+
+//#######################################
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+    font-family: variaveis.$font-principal;
+    
+    img {
+        height: 32px;
+    }
+}
+
+//conteudo sobre a loja
+
+.conteudo-loja {
+    max-width: 1024px;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+
+    h2 {
+        font-family: variaveis.$font-principal;
+    }
+
+    p {
+        font-family: variaveis.$font-secundaria;
+    }
+
+    ul {
+        margin-top: 16px;
+        padding-left: 20px;
+
+        li{
+            list-style-type: circle;
+            font-family: variaveis.$font-secundaria;
+        }
+    }
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-between;
+
+    &-loja{
+        display: flex;
+        margin: 24px 0;
+    }
+
+}

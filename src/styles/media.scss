@@ -1,0 +1,102 @@
+
+@media screen and (max-width: 767px) {
+    .tela {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    section {
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 12px;
+        padding: 8px;
+    }
+
+    .conteudo {
+        display: flex;
+        justify-content: space-between;
+
+        &-loja {
+            margin: 0;
+            flex-direction: column-reverse;
+        }
+    }
+    
+    #sobre-a-loja {
+    margin-top: 22px;
+
+        h2{
+            text-align: center;
+        }
+
+        .one-img {
+            margin: 0 auto;
+        max-width: 280px;
+        margin-right: 24px;
+        border-radius: 8px;
+        }
+
+        img {
+            margin: 0 auto;
+            max-width: 280px;
+            border-radius: 8px;
+        }
+        }
+
+        
+        .lista-veiculos {
+        flex-wrap: wrap;
+
+        li {
+        list-style: none;
+        max-width: 90%;
+        margin: 0 5%;
+        margin-bottom: 24px;
+        
+        img {
+            max-width: 100%;
+        }
+        
+        h3 {
+            margin: 4px 0;
+        }
+        }
+    }
+
+        
+    .lista-veiculos {
+        flex-wrap: wrap;
+
+        li {        
+        img {
+            max-width: 100%;
+        }
+        
+        h3 {
+            margin: 4px 0;
+        }
+
+        p, 
+        strong {
+            font-size: 12px;
+        }
+
+        .price {
+            margin: 8px 0;
+        }
+
+        button {
+            font-size: 10px;
+        }
+        }
+    }
+
+        
+        header > .container {
+            justify-content: space-between;
+            align-items: center;
+            padding: 16px 8px;
+        }
+}
+
+

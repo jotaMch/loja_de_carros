@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Estilo para o cabeçalho */
+    #meu-header {
+      height: 100px;
+      background-color: #f1f1f1;
+      padding: 20px;
+    }
+    
+    /* Estilo para as seções */
+    .secao {
+      height: 500px;
+      padding: 20px;
+    }
+    
+    #secao1 {
+      background-color: #ff9999;
+    }
+    
+    #secao2 {
+      background-color: #99ff99;
+    }
+    
+    #secao3 {
+      background-color: #9999ff;
+    }
+  </style>
+</head>
+<body>
+  <div id="meu-header">
+    <!-- Menu -->
+    <ul id="menu">
+      <li><a href="#secao1">Seção 1</a></li>
+      <li><a href="#secao2">Seção 2</a></li>
+      <li><a href="#secao3">Seção 3</a></li>
+    </ul>
+  </div>
+  
+  <div id="secao1" class="secao">
+    <!-- Conteúdo da Seção 1 -->
+    <h2>Seção 1</h2>
+    <p>Conteúdo da Seção 1...</p>
+  </div>
+  
+  <div id="secao2" class="secao">
+    <!-- Conteúdo da Seção 2 -->
+    <h2>Seção 2</h2>
+    <p>Conteúdo da Seção 2...</p>
+  </div>
+  
+  <div id="secao3" class="secao">
+    <!-- Conteúdo da Seção 3 -->
+    <h2>Seção 3</h2>
+    <p>Conteúdo da Seção 3...</p>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(document).ready(function() {
+      // Adicionar evento de clique aos links do menu
+      $("#menu a").click(function(event) {
+        event.preventDefault(); // Impede o comportamento padrão do link
+
+        var destino = $(this).attr("href"); // Obtém o destino do link
+
+        // Animação de rolagem suave até o destino
+        $("html, body").animate({
+          scrollTop: $(destino).offset().top
+        }, 1000);
+      });
+    });
+  </script>
+</body>
+</html>

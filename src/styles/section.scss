@@ -1,0 +1,113 @@
+@use 'variaveis';
+
+//conteiner tamanho
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    .lista-veiculos li {
+        padding: 8px;
+        border-radius: 6px;
+        box-shadow: 0 4px 8px 0  black;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+            background-color: variaveis.$corSobreALoja;
+        }
+    }
+}
+
+//seção de destaques e promoções
+
+#destaque,
+#contato {
+    background-color: variaveis.$corDestaque;
+    margin: 48px auto;
+}
+
+#promocao {
+    background-color: variaveis.$corSobreALoja;
+    margin: 48px auto;
+}
+
+//#################################
+
+.lista-veiculos {
+    flex-wrap: wrap;
+
+    li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+    
+    img {
+        max-width: 100%;
+    }
+    
+    h3 {
+        margin: 16px 0;
+    }
+
+    button {
+        color: variaveis.$corDestaque;
+    }
+    }
+}
+
+.container-flex {
+    display: flex;
+}
+
+#sobre-a-loja {
+    background-color: variaveis.$corSobreALoja;
+    color: rgb(24, 28, 21);
+    margin-top: 72px;
+
+    .one-img {
+    max-width: 350px;
+    margin-right: 24px;
+    border-radius: 8px;
+    }
+
+    img {
+        max-width: 350px;
+        border-radius: 8px;
+    }
+}
+
+//########################################
+
+section {    
+    h2 {
+        margin-bottom: 16px;
+    }
+}
+
+.item-central {
+    margin: 0 5%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    border: none;
+    background-color: variaveis.$btnColor;
+    color: variaveis.$corText;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.price {
+    margin: 16px 0;
+    display: block;
+}
+
+.price del {
+    color: #ccc;
+    font-size: 14px;
+}

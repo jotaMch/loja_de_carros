@@ -1,0 +1,43 @@
+@use 'variaveis';
+/*
+aside {
+    width: 300px;
+    padding: 22px;
+    margin: 6px 0 0;
+    border-radius: 6px;
+    //border-bottom-left-radius: 6px;
+    box-shadow: 0 2px 0 2px rgb(0,0,0,0.2);
+    float: left;
+    margin-right: 0px;
+
+    ul {
+        li {
+            border: 1px solid rgb(0,0,0,0.7);
+            padding: 8px;
+            box-shadow: 0 4px 8px 0  black;
+            margin: 8px 0;
+            border-radius: 4px;
+            list-style: none;
+
+            &:hover {
+                padding: 12px;
+            }
+        }
+    }
+}
+
+//botão do aside
+
+#mais-btn {
+    color: variaveis.$corNav;
+    background-color: variaveis.$corText;
+    padding: 6px;
+    margin: 4px 0;
+    //background-color: rgb(123, 41, 123);
+}
+
+//cor
+
+.color-aside {
+    background-color: rgb(208, 164, 208);
+}*/
