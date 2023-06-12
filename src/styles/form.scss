@@ -1,3 +1,4 @@
+@use 'variaveis';
 
 .form-campo {
     margin-bottom: 16px;
@@ -8,13 +9,19 @@
     }
 }
 
+button:hover {
+    background-color: variaveis.$btnHover;
+}
+
 .form-campo input,
 .form-campo textarea {
     width: 100%;
     display: block;
     padding: 8px;
     border-radius: 4px;
+    border: 1px solid rgba(0,0,0,0.2);
 }
+
 
 .form-campo textarea {
     resize: none;
@@ -26,6 +33,7 @@ max-width: 360px;
 
     button {
         max-width: 120px;
+        color: variaveis.$corDestaque;
     }
 }
 

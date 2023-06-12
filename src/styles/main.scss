@@ -55,7 +55,7 @@ nav {
         text-transform: uppercase;
         
         a {
-            color: variaveis.$corHeader;
+            color: variaveis.$cortextNav;
             text-decoration: none;
             font-family: variaveis.$font-secundaria;
         }
@@ -120,6 +120,14 @@ footer li {
     &-loja{
         display: flex;
         margin: 24px 0;
+
+        .reverse {
+            display: flex;
+        }
     }
 
+}
+
+.center {
+    text-align: center;
 }

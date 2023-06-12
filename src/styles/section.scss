@@ -6,10 +6,15 @@
     max-width: 1024px;
     width: 100%;
     margin: 0 auto;
+
+    h2 {
+    font-family: variaveis.$font-principal;
+    padding-top: 6px;
+    }
     .lista-veiculos li {
         padding: 8px;
         border-radius: 6px;
-        box-shadow: 0 4px 8px 0  black;
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         transition: background-color 0.3s ease;
 
         &:hover {
