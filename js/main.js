@@ -1,7 +1,5 @@
 $(document).ready(function() {
     $('#carousel-imagens').slick({
-        slidesToShow: 1,
-        slideToScroll: 1,
         autoplay: true,
     });
 
