@@ -124,6 +124,7 @@ button:hover {
   padding: 8px;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: "Crimson Text", serif;
 }
 
 .form-campo textarea {
@@ -189,6 +190,21 @@ aside {
   .tela {
     width: 100%;
     overflow-x: hidden;
+  }
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav li {
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  nav li a {
+    font-size: 10.8px;
   }
   section {
     width: 90%;
@@ -394,6 +410,8 @@ footer li img {
 .conteudo-loja ul li {
   list-style-type: circle;
   font-family: "Josefin Sans", sans-serif;
+  font-size: 14px;
+  margin-top: 4px;
 }
 
 .conteudo {

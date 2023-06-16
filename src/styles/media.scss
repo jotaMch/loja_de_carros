@@ -6,6 +6,28 @@
         overflow-x: hidden;
     }
 
+    
+nav {
+    ul {
+        display: flex;
+        justify-content: center;
+    }
+
+    li {
+        list-style: none;
+        display: inline;
+        margin-right: 16px;
+        font-size: 18px;
+        font-weight: bold;
+        text-transform: uppercase;
+        
+        a {
+            font-size: 10.8px;
+        }
+    }
+}
+
+
     section {
         width: 90%;
         margin: 0 auto;
