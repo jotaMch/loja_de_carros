@@ -12,7 +12,7 @@
   margin: 0 auto;
 }
 .container h2 {
-  font-family: "Crimson Text", serif;
+  font-family: "DM Serif Display", serif;
   padding-top: 6px;
 }
 .container .lista-veiculos li {
@@ -22,7 +22,7 @@
   transition: background-color 0.3s ease;
 }
 .container .lista-veiculos li:hover {
-  background-color: #f0e4e4;
+  background-color: #FFFFF0;
 }
 
 #destaque,
@@ -32,7 +32,7 @@
 }
 
 #promocao {
-  background-color: #f0e4e4;
+  background-color: #FFFFF0;
   margin: 48px auto;
 }
 
@@ -59,7 +59,7 @@
 }
 
 #sobre-a-loja {
-  background-color: #f0e4e4;
+  background-color: #FFFFF0;
   color: rgb(24, 28, 21);
   margin-top: 72px;
 }
@@ -124,7 +124,7 @@ button:hover {
   padding: 8px;
   border-radius: 4px;
   border: 1px solid rgba(0, 0, 0, 0.2);
-  font-family: "Crimson Text", serif;
+  font-family: "DM Serif Display", serif;
 }
 
 .form-campo textarea {
@@ -321,7 +321,7 @@ aside {
 }
 .container-flex p {
   color: #282626;
-  font-family: "Crimson Text", serif;
+  font-family: "DM Serif Display", serif;
   font-weight: bold;
 }
 
@@ -330,7 +330,7 @@ html {
 }
 
 header, footer {
-  background-color: #f0e4e4;
+  background-color: #FFF8DC;
   color: #282626;
 }
 
@@ -342,7 +342,7 @@ header {
 }
 header h1 {
   padding: 8px 0;
-  font-family: "Crimson Text", serif;
+  font-family: "DM Serif Display", serif;
 }
 
 header > .container,
@@ -353,7 +353,7 @@ footer > .container {
 }
 
 nav {
-  background-color: #fbd2d2;
+  background-color: #FFFFE0;
   padding: 16px 0;
   display: none;
 }
@@ -366,9 +366,9 @@ nav li {
   text-transform: uppercase;
 }
 nav li a {
-  color: #9b6b6b;
+  color: #626262;
   text-decoration: none;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Saira Condensed", sans-serif;
 }
 
 .menu-hamburger {
@@ -386,7 +386,7 @@ nav li a {
 footer li {
   list-style: none;
   margin-left: 16px;
-  font-family: "Crimson Text", serif;
+  font-family: "DM Serif Display", serif;
 }
 footer li img {
   height: 32px;
@@ -398,10 +398,10 @@ footer li img {
   font-family: "Josefin Sans", sans-serif;
 }
 .conteudo-loja h2 {
-  font-family: "Crimson Text", serif;
+  font-family: "DM Serif Display", serif;
 }
 .conteudo-loja p {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Saira Condensed", sans-serif;
 }
 .conteudo-loja ul {
   margin-top: 16px;
@@ -409,7 +409,7 @@ footer li img {
 }
 .conteudo-loja ul li {
   list-style-type: circle;
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Saira Condensed", sans-serif;
   font-size: 14px;
   margin-top: 4px;
 }
