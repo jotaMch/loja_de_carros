@@ -10,6 +10,10 @@
     h2 {
     font-family: variaveis.$font-principal;
     padding-top: 6px;
+    color: variaveis.$btnColor;
+    }
+    h3, strong, li{
+        color: variaveis.$corText;
     }
     .lista-veiculos li {
         padding: 8px;

@@ -6,6 +6,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #0f0f10;
+}
+
 .container {
   max-width: 1024px;
   width: 100%;
@@ -14,6 +18,10 @@
 .container h2 {
   font-family: "DM Serif Display", serif;
   padding-top: 6px;
+  color: #119759;
+}
+.container h3, .container strong, .container li {
+  color: #fff;
 }
 .container .lista-veiculos li {
   padding: 8px;
@@ -22,17 +30,17 @@
   transition: background-color 0.3s ease;
 }
 .container .lista-veiculos li:hover {
-  background-color: #FFFFF0;
+  background-color: #0f0f10;
 }
 
 #destaque,
 #contato {
-  background-color: #fffcfc;
+  background-color: #0f0f10;
   margin: 48px auto;
 }
 
 #promocao {
-  background-color: #FFFFF0;
+  background-color: #0f0f10;
   margin: 48px auto;
 }
 
@@ -51,7 +59,7 @@
   margin: 16px 0;
 }
 .lista-veiculos li button {
-  color: #fffcfc;
+  color: #0f0f10;
 }
 
 .container-flex {
@@ -59,7 +67,7 @@
 }
 
 #sobre-a-loja {
-  background-color: #FFFFF0;
+  background-color: #0f0f10;
   color: rgb(24, 28, 21);
   margin-top: 72px;
 }
@@ -87,7 +95,7 @@ button {
   padding: 8px 0;
   border: none;
   background-color: #119759;
-  color: #282626;
+  color: #fff;
   font-size: 16px;
   font-weight: bold;
   font-style: italic;
@@ -111,6 +119,7 @@ button {
 .form-campo label {
   font-weight: bold;
   display: block;
+  color: #fff;
 }
 
 button:hover {
@@ -137,7 +146,7 @@ form {
 }
 form button {
   max-width: 120px;
-  color: #fffcfc;
+  color: #0f0f10;
 }
 
 .input-invalid {
@@ -320,7 +329,7 @@ aside {
   margin: 0 auto;
 }
 .container-flex p {
-  color: #282626;
+  color: #fff;
   font-family: "DM Serif Display", serif;
   font-weight: bold;
 }
@@ -330,8 +339,8 @@ html {
 }
 
 header, footer {
-  background-color: #FFF8DC;
-  color: #282626;
+  background-color: #0f0f10;
+  color: #fff;
 }
 
 header {
@@ -353,7 +362,7 @@ footer > .container {
 }
 
 nav {
-  background-color: #FFFFE0;
+  background-color: #1d1d1f;
   padding: 16px 0;
   display: none;
 }
@@ -378,7 +387,7 @@ nav li a {
 .menu-hamburger span {
   height: 2px;
   width: 100%;
-  background-color: #282626;
+  background-color: #fff;
   display: block;
   margin-bottom: 4px;
 }
